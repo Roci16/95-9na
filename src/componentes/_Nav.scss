@@ -1,0 +1,31 @@
+nav{
+    color: #242526;
+    background-color: #C0B4CF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 120px;
+    h1{
+        margin: 0;
+        font-size: 40px;
+    }
+    .botonera-nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        width: 20%;
+           .botones-nav{
+               background-color: #e0dfdf;
+               color: #242526;
+               border: 2px solid #a17cce;
+               border-radius: 10px;
+               width: 80px;
+               height: 32px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+    } 
+    }
+
+}

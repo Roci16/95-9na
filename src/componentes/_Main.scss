@@ -1,0 +1,13 @@
+main{
+    background-color: #e0dfdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    .coleccion-tarjetas{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,21 @@
+.tarjetas{display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color:#5a5a5a3f ;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: #a5a5a5 0px 7px 13px 1px;
+    color: #242526;
+    width: 250px;
+    img{
+        width: 100%;
+        height: 270px;
+        object-fit: contain;
+        border-radius:10px 10px 0 0;
+        background-color: white;
+    }
+    h2{
+     font-size: 1em;
+    }
+}
