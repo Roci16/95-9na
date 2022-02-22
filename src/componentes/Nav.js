@@ -8,9 +8,9 @@ const Nav =()=>{
             <h1>FakeMeli</h1>
         </Link>
         <article className="botonera-nav">
-            <a className="botones-nav">algo 1 </a>
-            <a className="botones-nav">algo 2</a>
-            <a className="botones-nav">algo 3</a>
+            <p className="botones-nav">algo 1 </p>
+            <p className="botones-nav">algo 2</p>
+            <p className="botones-nav">algo 3</p>
         </article>
     </nav>
         

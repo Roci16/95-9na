@@ -10,18 +10,17 @@ const ModalTarjeta = () =>{
         fetch(`https://api.mercadolibre.com/items/${params.idProducto}`)
         .then(res=> res.json())
         .then(data => setPoducto(data))
-    },[])
+    },[params.idProducto])
 
     console.log(producto);
     return(
 
         <article>
             <h2>{producto.title}</h2>
-            <img src={producto.thumbnail}/>
+            <img src={producto.thumbnail }alt={producto.title}/>
             <span>${producto.price}</span>
             <p>{producto.condition}</p>
             <p>{producto.warranty}</p>
-            {/* {producto.shipping.free_shipping === true && <p> Envio gratuito </p>} */}
         </article>
 
     )
